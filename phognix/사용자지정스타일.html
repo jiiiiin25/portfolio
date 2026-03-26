@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용자 지정 스타일</title>
+    <style>
+        :root {
+            --color-main: yellow;
+            --color-sub1: skyblue;
+            --gray900: #282828;
+            --gray800: #454545;
+        }
+        h1 {
+            color: var(--color-main);
+        }
+        p {
+            background-color: var(--color-main);
+        }
+    </style>
+</head>
+<body>
+    <h1>brand logo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, culpa.</p>
+    <!--
+    css변수: 색상, 폰트, 간격 및 크기 등
+    선언: --variable-name: css value;
+    적용: 선택자 {css property: var(--variable-name);}
+    -->
+</body>
+</html>
